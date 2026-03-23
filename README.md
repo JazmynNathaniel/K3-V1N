@@ -29,21 +29,34 @@ K3-V1N resides in a futuristic data archive that pulls information from endless 
 He has uploaded every page of every book in existence to his archive...so that he can use book pages...for paper balls. (He IS still a cat.)
 
 
-``` User Query
+```User Query
     │
     ▼
-[Vectorization / Embeddings]
++------------------------+
+| Vectorization / Embeddings |
++------------------------+
     │
     ▼
-[Semantic Retrieval from Vector DB] ← filters top-k relevant info
++-----------------------------------------+
+| Semantic Retrieval from Vector DB       |
+| (Top-k relevant info filtered)          |
++-----------------------------------------+
     │
     ▼
-[RAG: Combine Retrieved Data + LLM]
++-------------------------------+
+| RAG: Combine Retrieved Data   |
+|      + Language Model         |
++-------------------------------+
     │
     ▼
-[Personality Layer: sarcasm, meows, sighs]
++-------------------------------+
+| Personality Layer: sarcasm,   |
+| meows, sighs                  |
++-------------------------------+
     │
-    ▼```
+    ▼
+Response Delivered
+(Helpful, Accurate, Judgmental)```
 
 
 Response Delivered (Helpful, Accurate, Judgmental)
