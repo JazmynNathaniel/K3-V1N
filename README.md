@@ -14,8 +14,12 @@ To create a system that is both conversational and grounded in real data instead
 
 ##Features (Planned)
 AI-powered document search (RAG)
-*Semantic retrieval from a vector database - Queries are converted to vectors, and semantically matched with vectors that correspond to the meaning behind the query.  K3-V1N retrieves relevant, real-time data and grounds his responses in that, making his output more reliable.
+
+*Semantic retrieval from a vector database - Queries are converted to vectors, and semantically matched with vectors that correspond to the meaning behind the query rather than keywords, improving relevance.  
+K3-V1N retrieves relevant, real-time data and grounds his responses in that, making his output more reliable.
+
 Conversational interface
+
 Personality-driven responses
 
 ##Concept
