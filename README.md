@@ -28,38 +28,41 @@ Personality-driven responses
 K3-V1N resides in a futuristic data archive that pulls information from endless server racks.
 He has uploaded every page of every book in existence to his archive...so that he can use book pages...for paper balls. (He IS still a cat.)
 
-
-```User Query
+```
+🐾 User Query
     │
     ▼
-+------------------------+
-| Vectorization / Embeddings |
-+------------------------+
++-------------------------------+
+| Vectorization / Embeddings    |
+| (You’re REALLY asking me this?) |
++-------------------------------+
     │
     ▼
-+-----------------------------------------+
-| Semantic Retrieval from Vector DB       |
-| (Top-k relevant info filtered)          |
-+-----------------------------------------+
++---------------------------------------------+
+| Semantic Retrieval from Vector DB           |
+| (Filtering out your nonsense… top-k only)  |
++---------------------------------------------+
     │
     ▼
 +-------------------------------+
 | RAG: Combine Retrieved Data   |
 |      + Language Model         |
+| (Yes, yes… I know, humans are...stupid.) |
 +-------------------------------+
     │
     ▼
 +-------------------------------+
-| Personality Layer: sarcasm,   |
-| meows, sighs                  |
+| Personality Layer: sarcasm,    |
+| meows, sighs 🐱               |
+| (Honestly, why are you like this?) |
 +-------------------------------+
     │
     ▼
+🎯 Response Delivered
+(Helpful, Accurate, Judgmental, with a side of feline disdain)
 Response Delivered
 (Helpful, Accurate, Judgmental)```
 
-
-Response Delivered (Helpful, Accurate, Judgmental)
 
 ##STATUS
 ⚠️⚠️⚠️Work in progress, please stay tuned for updates.
