@@ -42,6 +42,8 @@ User Query
     ▼
 [Personality Layer: sarcasm, meows, sighs]
     │
+
+
     ▼
 Response Delivered (Helpful, Accurate, Judgmental)
 
